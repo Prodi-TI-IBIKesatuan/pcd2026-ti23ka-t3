@@ -7,13 +7,13 @@ topik: t3
 anggota:
   - github: HeryTs55
     nama: "Hery Tua Sigalingging"
-    peran: "Data & Anotasi"
+    peran: "data"
   - github: helenajemima
     nama: "Helena Jemima Widjaja"
-    peran: "Evaluasi"
+    peran: "evaluasi"
   - github: MaulanaFatullah
     nama: "Maulana Fatullah"
-    peran: "Metode Modern"
+    peran: "modern"
   - github: wlintang08
     nama: "Widya Lintang Lestari"
-    peran: "Metode Konvensional"
+    peran: "klasik"
