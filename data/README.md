@@ -7,7 +7,7 @@ Dataset lengkap **tidak** disimpan di repo ini. Repo hanya berisi `sample/` (≤
 - Tautan folder Google Drive (akses terbatas): [https://drive.google.com/drive/folders/1CPQ21QoxalzHQt6mDVj2Z1fCunBoIvSX?usp=sharing]
 - Jumlah citra: [250]
 - Foto sendiri per anggota: [helena 18, widya 15, heri 15, maulana 18]
-- Sumber data tambahan dan lisensinya: [tidak ada]
+- Sumber data tambahan dan lisensinya: [DIV2K (DIVerse 2K Resolution Dataset) subset DIV2K_train_HR]
 - Jumlah baris anotasi: [250]
 - Cara pengambilan foto (perangkat, waktu, lokasi umum): [smartphone, 2019-2026, Bogor/Jakarta]
 
