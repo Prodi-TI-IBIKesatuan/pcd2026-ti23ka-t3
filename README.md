@@ -4,7 +4,7 @@ Proyek kelompok **Pengolahan Citra Digital 2026** · kelas `ti23ka` · topik **T
 
 [![Cek proyek](https://github.com/Prodi-TI-IBIKesatuan/pcd2026-ti23ka-t3/actions/workflows/cek-proyek.yml/badge.svg)](https://github.com/Prodi-TI-IBIKesatuan/pcd2026-ti23ka-t3/actions/workflows/cek-proyek.yml)
 
-**Lingkup kelompok kami:** [isi: satu kalimat, mis. "noise ISO tinggi"]
+**Lingkup kelompok kami:** [Degradasi citra menggunakan Gaussian Noise]
 
 Memulihkan citra yang rusak oleh noise, blur, atau artefak kompresi JPEG. Anggota dan perannya ada di [ANGGOTA.yml](ANGGOTA.yml); cara kerja kelompok ada di [PANDUAN.md](PANDUAN.md).
 
@@ -19,10 +19,14 @@ Memulihkan citra yang rusak oleh noise, blur, atau artefak kompresi JPEG. Anggot
 
 ## Dataset (Tahap 1)
 
-- Jumlah citra: [isi, minimal 200]
-- Foto sendiri: [isi, minimal 60, 15 per anggota]
-- Sumber data tambahan dan lisensinya: [isi, atau tulis "tidak ada"]
-- Langkah preprocessing: [isi, ringkas dan berurutan]
+- Jumlah citra: [250]
+- Foto sendiri: [66]
+- Sumber data tambahan dan lisensinya: [DIV2K (DIVerse 2K Resolution Dataset) subset DIV2K_train_HR]
+- Langkah preprocessing: [Alasan langkah preprocessing:]
+  
+[a) Degradasi Gaussian Noise (sigma=25, seed tetap mulai dari 42): Dilakukan untuk membuat citra rusak sintetis secara konsisten dan dapat direproduksi (reproducible) sebagai pasangan uji bagi citra bersih (ground truth).]
+[b) Pencocokan pasangan citra (ambil_pasangan_citra): Memastikan setiap citra bersih dipasangkan dengan citra rusak yang tepat berdasarkan penamaan berkas dan anotasi.csv.]
+[c) Resize sisi terpanjang maks 1024 px (ubah_ukuran_maks): Dilakukan khusus untuk visualisasi perbandingan sebelum–sesudah agar ukuran berkas gambar tetap ringan dan memenuhi batas pengecekan otomatis GitHub (<10MB).]
 
 Rincian dataset, format anotasi, dan tautan Drive: [data/README.md](data/README.md). Contoh sebelum–sesudah ada di [outputs/figures/](outputs/figures/).
 
