@@ -4,12 +4,12 @@ Dataset lengkap **tidak** disimpan di repo ini. Repo hanya berisi `sample/` (≤
 
 ## Ringkasan
 
-- Tautan folder Google Drive (akses terbatas): [isi: https://drive.google.com/drive/u/0/search?q=pcd2026-ti23ka-t3]
+- Tautan folder Google Drive (akses terbatas): [https://drive.google.com/drive/folders/1CPQ21QoxalzHQt6mDVj2Z1fCunBoIvSX]
 - Jumlah citra: [250]
-- Foto sendiri per anggota: [15]
-- Sumber data tambahan dan lisensinya: [DIV2K (DIVerse 2K Resolution Dataset) subset DIV2K_train_HR (Lisensi: Unknown/Bebas untuk riset akademik)]
+- Foto sendiri per anggota: [helena 18, widya 15, heri 15, maulana 18]
+- Sumber data tambahan dan lisensinya: [DIV2K (DIVerse 2K Resolution Dataset) subset DIV2K_train_HR]
 - Jumlah baris anotasi: [250]
-- Cara pengambilan foto (perangkat, waktu, lokasi umum): [Menggunakan kamera ponsel, mayoritas diambil pada siang dan sore hari, berlokasi di sekitar area lingkungan rumah anggota]
+- Cara pengambilan foto (perangkat, waktu, lokasi umum): [smartphone, 2019-2026, Bogor/Jakarta]
 
 ## Anotasi
 
