@@ -25,7 +25,9 @@ Memulihkan citra yang rusak oleh noise, blur, atau artefak kompresi JPEG. Anggot
 - Langkah preprocessing: [Alasan langkah preprocessing:]
   
 [a) Degradasi Gaussian Noise (sigma=25, seed tetap mulai dari 42): Dilakukan untuk membuat citra rusak sintetis secara konsisten dan dapat direproduksi (reproducible) sebagai pasangan uji bagi citra bersih (ground truth).]
+
 [b) Pencocokan pasangan citra (ambil_pasangan_citra): Memastikan setiap citra bersih dipasangkan dengan citra rusak yang tepat berdasarkan penamaan berkas dan anotasi.csv.]
+
 [c) Resize sisi terpanjang maks 1024 px (ubah_ukuran_maks): Dilakukan khusus untuk visualisasi perbandingan sebelum–sesudah agar ukuran berkas gambar tetap ringan dan memenuhi batas pengecekan otomatis GitHub (<10MB).]
 
 Rincian dataset, format anotasi, dan tautan Drive: [data/README.md](data/README.md). Contoh sebelum–sesudah ada di [outputs/figures/](outputs/figures/).
